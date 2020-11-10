@@ -1,0 +1,71 @@
+ ul,
+ li {
+     display: block;
+ }
+ 
+ li {
+     list-style: none;
+ }
+ 
+ div.box {
+     /* perspective: 400px; */
+ }
+ 
+ #board {
+     width: 600px;
+     height: 694px;
+     background: skyblue;
+     background: url(../images/board.bmp) no-repeat;
+     background-size: 100%;
+     margin: 0 auto;
+     border: 1px solid red;
+     position: relative;
+     display: none;
+     /* transform: rotateX(15deg); */
+     /* transform-style: preserve-3d; */
+ }
+ 
+ .qi {
+     width: 65px;
+     height: 65px;
+     float: left;
+     position: absolute;
+     display: none;
+ }
+ /*子被选中后的效*/
+ 
+ .on {
+     border: 1px solid white;
+ }
+ 
+ .userName {
+     width: 200px;
+ }
+ 
+ .start {
+     display: none;
+ }
+ 
+ #headPortrait {
+     height: 40px;
+     width: 400px;
+     border: 1px solid black;
+ }
+ 
+ #headPortrait img {
+     height: 40px;
+     width: 40px;
+     float: left;
+ }
+ 
+ .chat .box {
+     width: 200px;
+     height: 100px;
+     border: 1px solid black;
+ }
+ 
+ .chat input {
+     width: 200px;
+     height: 30px;
+     border: 1px solid black;
+ }
